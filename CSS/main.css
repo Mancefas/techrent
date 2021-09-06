@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Serif Pro", serif;
+}
+.d-flex {
+  display: flex;
+}
+header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
+  border-bottom: 1px solid rgb(179, 107, 107);
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.header-content {
+  justify-content: space-between;
+}
+
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.nav-bar > li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.logo,
+footer-logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 700;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+.pagrindinis-video {
+  position: relative;
+}
+
+.tekstas {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #3b0d11;
+  margin: 0;
+  padding: 1rem;
+}
+.hero content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #3b0d11;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+.btn {
+  background-color: #3b0d11;
+  padding: 1rem 2rem;
+  color: aliceblue;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+  color: #3b0d11;
+}
+
+.primary-bg {
+  background-color: #706563;
+}
+
+.m-0 {
+  margin: 0;
+}
+.grid {
+  display: grid;
+}
+
+.call-2-1 {
+  grid-template-columns: 2fr 1fr;
+}
+.section-padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.call-to-action-button {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.section-heading > span {
+  color: wheat;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.call-1-1 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-1 {
+  width: auto;
+  height: auto;
+  padding: 00.5rem;
+}
+
+.about-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  row-gap: 1rem;
+}
+
+.about-content-left p {
+  margin: 1rem;
+  margin-right: 0;
+}
+
+.about-content-right p {
+  margin: 1rem;
+  margin-left: 0;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+}
+
+.social-link > ul > li {
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px solid #222;
+  border-radius: 10%;
+  font-size: 1.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.social-link > ul > li:hover {
+  background-color: #748386;
+}
+
+.services {
+  background-color: rgb(240, 240, 240);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.call-1-services {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service,
+.team {
+  background-color: #fff;
+  border: 1px solid rgb(194, 193, 193);
+  padding: 1.5rem;
+  box-shadow: 0px 0px 3px 0px #aaa;
+  border-radius: 5%;
+  margin: 1rem;
+}
+
+.service h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-icon {
+  font-size: 2.5rem;
+}
+
+.service-icon > i {
+  padding: 1rem;
+  background-color: #efcb68;
+  border-radius: 50%;
+  padding: 1rem 1.4rem;
+  border: 2px solid #222;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.team h3 {
+  font-size: 1.8rem;
+}
+
+.img-person {
+  width: 50%;
+  height: auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #fafaff;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 3px 0px #aaa;
+}
+
+.contact {
+  background-image: url(../contact.jpg);
+  background-size: cover;
+}
+
+.contact label {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer p {
+  margin-top: 1rem;
+}
+
+.footer h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footer li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .call-1-1,
+  .call-1-services,
+  .call-2-1,
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header,
+  .d-flex {
+    flex-direction: column;
+  }
+
+  nav {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .nav-bar li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0;
+    border-top: 1px solid #222;
+  }
+
+  .m-border-bottom {
+    border-bottom: 1px solid #222;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+  .btn {
+    padding: 1rem 2rem;
+  }
+
+  .text-right {
+    text-align: center;
+  }
+
+  .call-to-action-button {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .width-60 {
+    width: 100%;
+  }
+
+  .img-1 {
+    width: 350px;
+  }
+}
